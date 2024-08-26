@@ -1,0 +1,428 @@
+
+# STOGLD
+
+
+```sql
+   
+    SELECT * FROM STOGLD
+     FETCH FIRST 10 ROWS ONLY
+
+```
+
+|SEQ|STOSTOCD|STOEDESC|STOLDESC|STOREGION|STOTYPE|STOSHORT|STOORDABLE|STOBRCD|STOBREDESC|STOBRLDESC|STOLADDR1|STOLADDR2|STOEADDR1|STOEADDR2|STOSTATE|STOWELID|STOTAXID|STOCASHIER|STOFORMAT|STOCATE|STOMKT|STOTAXLOC|STOCITY|STOCRE|STOUPD|STOUSR|STOCREUSR|STOMUNICIPAL|STOPRINTER|STOTRANS|STOAREACD|STOARO|STOITMDESC|STOCHANGEPP|STORETURN|STOADJORD|STOCOSTCAL|STOCYSTART|STOCYEND|STOAUTOORD|STODEFINEL|STODEFINEE|STOGLN|STODAYSSEARCH|STOPPDECIMAL|STOSPDECIMAL|STOWGSHORT|STOPRICELEN|STONONSCHORD|STOLGORDBY|STOWGTYP|STOTAB|STOBUCD|STOPSSTO|STORETURNPRITOL|STOSTOPOS|STOPSGL|STOPSAP|STOPSHO|STOPSBC|STOPSTZ|STOPSCOUNTRY|STOPSCOUNTRYCD|STOPSORIGIN|STOPSSETID|STOPSINTINF|STOALERTTIME1|STOALERTTIME2|STOALERTTIME3|STOALERTCOLOR1|STOALERTCOLOR2|STOALERTCOLOR3|STOSPLTLGTPO|STOTOLEBTWSUG|STOINPUTMRP|STOMRPDIFFPO|STOALERTNSP|STOPRINTDCOD|STODEFAULTLOC|STORECRETURNWH|STOSTKCONSIGN|STOSTKLOC|STOMERGELIST|STOSTKADJIMA|STPSTKADJFG|STOLOC|STOPOFT|STOPHONENO|STOFAXNO|STOSTICKPRINTER|STOBYPSRAWF|STOSEMIPRINTER|STOECBUS|BUSINESSFORMAT|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|01 / 10|04A|Metro Walk (MW)|大江店 (MW)|2|O|MW|0|null|null|null|320 桃園縣中壢市中園路二段501號B1|null|510 CHUNG-SHAN EAST ROAD SEC.2|CHUNG LI TAO YUAN COUNTY 320|null|null|22662550|T|HYP|M|4|null|007|2009-03-27 00:00:00.0|2024-02-06 13:59:23.0|PMD-9381|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|19:00|0|null|null|4717546901406|60|1|1|1|0|1|0|D|ABCDEFGHIJ|1|TWA024|0|0140|TW010|TW011|000|TWD|E08|TAIWAN|TW|S|TWMER|0|5|15|30|3|2|1|0|50|0|1|0|P5|L|0|1|0|1|M|6|L|null|null|null|null|null|PS|1|HYP|
+|02 / 10|04B|Zhang Hwa (ZH)|彰化店 (ZH)|3|S|ZH|1|null|null|null|500 彰化市金馬路二段321號|null|321 CHIN MA ROAD SEC.2 ZHANG HWA 500|null|null|null|22662550|T|HYP|H|A|null|011|2009-03-27 00:00:00.0|2021-03-03 23:06:29.0|CRID0551|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|12:00|0|null|null|4717546901413|60|1|1|1|0|1|0|D|ABCDEFGHIJ|1|TWA022|0|0141|TW010|TW011|000|TWD|E08|TAIWAN|TW|S|TWMER|0|5|15|30|3|2|1|0|50|0|1|0|P5|L|0|1|0|1|M|6|L|null|047-367-397|047-367-400|PR|null|PS|1|HYP|
+|03 / 10|04C|Nan Tou (NT)|南投店 (NT)|3|S|NT|1|null|null|null|540 南投市三和三路21號|null|21 SAN-HO 3rd ROAD NAN TOU CITY 540|null|null|null|22662550|T|HYP|H|A|null|012|2009-03-27 00:00:00.0|2021-03-03 23:06:29.0|CRID0551|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|12:00|0|null|null|4717546901420|60|1|1|1|0|1|0|D|ABCDEFGHIJ|1|TWA023|0|0142|TW010|TW011|000|TWD|E08|TAIWAN|TW|S|TWMER|0|5|15|30|3|2|1|0|50|0|1|0|P5|L|0|1|0|1|M|6|L|null|049-224-5318|049-224-5317|PR|null|PS|1|HYP|
+|04 / 10|04D|Fong Yuan (FY)|豐原店 (FY)|3|S|FY|1|null|null|null|420 台中市豐原區成功路500號|null|No.500, Chenggong Rd., Fongyuan City,|Taichung County 420, Taiwan (R.O.C.)|null|null|22662550|T|HYP|H|A|null|009|2009-03-27 00:00:00.0|2023-07-17 15:29:09.0|F000172055|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|12:00|0|null|null|4717546901468|60|1|1|1|0|1|0|D|ABCDEFGHIJ|1|TWA411|0|0143|TW010|TW011|000|TWD|E08|TAIWAN|TW|S|TWMER|0|5|15|30|3|2|1|0|50|0|1|0|P4|L|0|1|0|1|M|6|L|null|04-2526-5151|04-2515-7466|PR|0|PS|1|HYP|
+|05 / 10|000|Head Office|總公司|0|O|000|0|null|null|null|251 台北縣淡水鎮民權路27號後棟5樓|null|5F, Back Building,No.27, Min-Chuan Rd.,|Tam Hsui, Taipei, Taiwan, R.O.C 251|null|null|006|C|HYP|L|Z|null|003|2009-03-27 00:00:00.0|2021-04-09 16:08:54.0|L2_MD_8018|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|11:00|0|null|null|4717546900003|60|2|0|1|0|1|0|D|ABCDEFGHIJ|1|TWZ900|20|null|null|null|null|null|null|null|null|null|null|null|5|15|30|3|2|1|0|50|0|1|0|P3|L|0|0|0|1|M|6|L|null|null|null|null|0|PS|1|HYP|
+|06 / 10|010|South Region Office|南區辦公室|0|O|010|0|null|null|null|251 台北縣淡水鎮民權路27號後棟5樓|null|5F, Back Building,No.27, Min-Chuan Rd.,|Tam Hsui, Taipei, Taiwan, R.O.C 251|null|null|006|C|HYP|L|Z|null|003|2009-03-27 00:00:00.0|2021-04-09 16:08:54.0|L2_MD_8018|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|11:00|0|null|null|4717546900102|60|2|0|1|0|1|0|D|ABCDEFGHIJ|1|TWA912|20|null|null|null|null|null|null|null|null|null|null|null|5|15|30|3|2|1|0|50|0|1|0|P3|L|0|0|0|1|M|6|L|null|null|null|null|0|PS|1|HYP|
+|07 / 10|020|North Regional Office|北區辦公室|0|O|020|0|null|null|null|251 台北縣淡水鎮民權路27號後棟5樓|null|5F, Back Building,No.27, Min-Chuan Rd.,|Tam Hsui, Taipei, Taiwan, R.O.C 251|null|null|006|C|HYP|L|Z|null|003|2009-03-27 00:00:00.0|2021-04-09 16:08:54.0|L2_MD_8018|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|11:00|0|null|null|4717546900201|60|2|0|1|0|1|0|D|ABCDEFGHIJ|1|TWA910|20|null|null|null|null|null|null|null|null|null|null|null|5|15|30|3|2|1|0|50|0|1|0|P3|L|0|0|0|1|M|6|L|null|null|null|null|0|PS|1|HYP|
+|08 / 10|030|Merchandise Division|商品部|0|O|030|0|null|null|null|251 台北縣淡水鎮民權路27號後棟5樓|null|5F, Back Building,No.27, Min-Chuan Rd.,|Tam Hsui, Taipei, Taiwan, R.O.C 251|null|null|006|C|HYP|L|Z|null|003|2009-03-27 00:00:00.0|2021-04-09 16:08:54.0|L2_MD_8018|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|11:00|0|null|null|4717546900301|60|2|0|1|0|1|0|D|ABCDEFGHIJ|1|TWA900|20|null|null|null|null|null|null|null|null|null|null|null|5|15|30|3|2|1|0|50|0|1|0|P3|L|0|0|0|1|M|6|L|null|null|null|null|0|PS|1|HYP|
+|09 / 10|04E|Nei Li (NL)|內壢店 (NL)|2|S|NL|1|null|null|null|320 桃園市中壢區中華路一段450號|null|450 CHUNG-HWA ROAD SEC.1|CHUNG LI TAO YUAN COUNTY 320|null|null|22662550|T|HYP|H|A|null|007|2009-03-27 00:00:00.0|2021-03-03 23:06:29.0|CRID0551|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|12:00|0|null|null|4717546901437|60|1|1|1|0|1|0|D|ABCDEFGHIJ|1|TWA034|0|0144|TW010|TW011|000|TWD|E08|TAIWAN|TW|S|TWMER|0|5|15|30|3|2|1|0|50|0|1|0|P6|L|0|1|0|1|M|6|L|null|03-452-6000|03-451-6884|PR|null|PS|1|HYP|
+|10 / 10|04F|De An (DA)|德安店 (DA)|3|S|DA|1|null|null|null|401 台中市復興路4段186號|null|B1 186 FUSHING ROAD SEC. 4 TAICHUNG 401|null|null|null|22662550|T|HYP|H|A|null|009|2009-03-27 00:00:00.0|2021-03-03 23:06:29.0|CRID0551|MIGRATION|null|RP|0|02|0|B|N|N|4|0|22:00|12:00|0|null|null|4717546901444|60|1|1|1|0|1|0|D|ABCDEFGHIJ|1|TWA041|0|0145|TW010|TW011|000|TWD|E08|TAIWAN|TW|S|TWMER|0|5|15|30|3|2|1|0|50|0|1|0|P5|L|0|1|0|1|M|6|L|null|04-2223-6677|04-2220-6677|PR|null|PS|1|HYP|
+
+
+- STOGLD [StoreModel]
+  - STOSTOCD
+    - Value : 04A
+    - PK
+    - 說明 : storeCode
+    - 中文 : 店代碼
+    - comment : Store Code
+  - STOEDESC
+    - Value : Metro Walk (MW)
+    - 說明 : storeEDesc
+    - comment : Store English description
+  - STOLDESC
+    - Value : 大江店 (MW)
+    - 說明 : storeLDesc
+    - 中文 : 店說明
+    - comment : Store Local description
+  - STOREGION
+    - Value : 2
+    - 說明 : storeRegion
+    - 中文 : 區域
+    - [TBLDTL = 1 : Region Code 區域碼](P4P_TBLDTL_02_1.md)
+    - comment : Region Code *Table 1
+  - STOTYPE
+    - Value : O
+    - 說明 : storeType
+    - 中文 : 店型態
+    - [TBLDTL = 5 : Type of sales 銷售型態](P4P_TBLDTL_02_5.md)
+    - comment : Store Type *Table 2
+  - STOSHORT
+    - Value : MW
+    - 說明 : shortName
+    - 中文 : 店縮寫
+    - comment : Short Code
+  - STOORDABLE
+    - Value : 0
+    - 說明 : orderable
+    - comment : Store Orderable Flag (1=Yes, 0=No)
+  - STOBRCD
+    - Value : null
+    - 說明 : storeBranchId
+    - comment : Branch ID
+  - STOBREDESC
+    - Value : null
+    - 說明 : storeBranchNameEng
+    - comment : Branch English Name
+  - STOBRLDESC
+    - Value : null
+    - 說明 : storeBranchNameLocal
+    - comment : Branch Local Name
+  - STOLADDR1
+    - Value : 320 桃園縣中壢市中園路二段501號B1
+    - 說明 : storeAddressLocal
+    - comment : Address Line1 (Local)
+  - STOLADDR2
+    - Value : null
+    - 說明 : storeAddressLocal2
+    - comment : Address Line2 (Local)
+  - STOEADDR1
+    - Value : 510 CHUNG-SHAN EAST ROAD SEC.2
+    - 說明 : storeAddressEng
+    - comment : Address Line1 (English)
+  - STOEADDR2
+    - Value : CHUNG LI TAO YUAN COUNTY 320
+    - 說明 : storeAddressEng2
+    - comment : Address Line2 (English)
+  - STOSTATE
+    - Value : null
+    - 說明 : storeState
+    - 中文 : 洲 但 TBLDTL.TBDTBNO = '37' 無資料
+    - [TBLDTL : 37](P4P_TBLDTL_02_37.md)
+    - comment : State *Table 37
+  - STOWELID
+    - Value : null
+    - 說明 : storeWelfareId
+    - comment : Welfare ID
+  - STOTAXID
+    - Value : 22662550
+    - 說明 : storeTaxId
+    - comment : Tax ID
+  - STOCASHIER
+    - Value : T
+    - 說明 : storeCashierSystem
+    - 中文 : 38_收銀系統型態
+    - [TBLDTL = 38 : Cashier System 收銀系統型態](P4P_TBLDTL_02_38.md)
+    - comment : Cashier System *Table 38
+  - STOFORMAT
+    - Value : HYP
+    - 說明 : storeFormat
+    - 中文 : 店規模，在UI是店型態
+    - [TBLDTL = 34 : Store Format 店規模](P4P_TBLDTL_02_34.md)
+    - comment : Store Format (C=Ca, H=Hyper) *Table 34
+  - STOCATE
+    - Value : M
+    - 說明 : storeCategory
+    - 中文 : 店類別，在UI是說明選項
+    - [TBLDTL = 36 : Store Category 店類別](P4P_TBLDTL_02_36.md)
+    - comment : Store Category *Table 36
+  - STOMKT
+    - Value : 4
+    - 說明 : storeMkt
+    - 中文 : 36_Market Potential , 在UI是分組依店碼
+    - [TBLDTL = 35 : Market Potential](P4P_TBLDTL_02_35.md)
+    - comment : Market Potential *Table 35
+  - STOTAXLOC
+    - Value : null
+    - 說明 : taxLocation
+    - comment : Tax Location
+  - STOCITY
+    - Value : 007
+    - 說明 : storeCity
+    - 中文 : 21_城市
+    - [TBLDTL = 21 : City 縣市](P4P_TBLDTL_02_21.md)
+    - comment : City *Table 21
+  - STOCRE
+    - Value : 2009-03-27 00:00:00.0
+    - 說明 : cred
+    - comment : Creation date
+  - STOUPD
+    - Value : 2024-02-06 13:59:23.0
+    - 說明 : lastUpd
+    - comment : Date of last update
+  - STOUSR
+    - Value : PMD-9381
+    - 說明 : lastUser
+    - comment : Last user
+  - STOCREUSR
+    - Value : MIGRATION
+    - 說明 : creUser
+    - comment : Creation User
+  - STOMUNICIPAL
+    - Value : null
+    - 說明 : storeMunicipal
+    - [TBLDTL : 45](P4P_TBLDTL_02_45.md)
+    - comment : Municipal *Table 45
+  - STOPRINTER
+    - Value : RP
+    - 說明 : storePrinter
+    - comment : Printer ID (for automatic transfer)
+  - STOTRANS
+    - Value : 0
+    - 說明 : storeDataTranReport
+    - comment : Data transfer report (0=Auto/Summary, 1=Manual/Summary, 2=Auto/All, 3=Manual/All)
+  - STOAREACD
+    - Value : 02
+    - 說明 : storeAreaFaxNo
+    - comment : Area Code Checking for Fax. No.
+  - STOARO
+    - Value : 0
+    - 說明 : storeAroCheck
+    - comment : ARO Checking (0-No, 1-Yes)
+  - STOITMDESC
+    - Value : B
+    - 說明 : storeItemDesc
+    - comment : Item/Sub Desc. in Fax Order (E=Eng/L=Local/B=Both)
+  - STOCHANGEPP
+    - Value : N
+    - 說明 : storeChangeForFresh
+    - comment : Allow PP. change for fresh aa meterial system (Y/N)
+  - STORETURN
+    - Value : N
+    - 說明 : storeAllowReturn
+    - comment : Allow returns to stop business suppliers  (Y/N)
+  - STOADJORD
+    - Value : 4
+    - 說明 : storeAdjReason
+    - [TBLDTL = 40 : Stock adjustment Reason 庫存調整原因](P4P_TBLDTL_02_40.md)
+    - comment : Adj Reason for Dispatch order *Table 40
+  - STOCOSTCAL
+    - Value : 0
+    - 說明 : storeCostCalMethod
+    - comment : Cost Calculation Method (0-Last Pur.Price, 1-Avg. Cost)
+  - STOCYSTART
+    - Value : 22:00
+    - 說明 : storeCycleCountStart
+    - comment : Cycle Count Period Start Time
+  - STOCYEND
+    - Value : 19:00
+    - 說明 : storeCycleCountEnd
+    - comment : Cycle Count Period End Time
+  - STOAUTOORD
+    - Value : 0
+    - 說明 : storeAutoOrderPrint
+    - comment : Auto Order Printed with Purchase (0-No, 1-Yes)
+  - STODEFINEL
+    - Value : null
+    - 說明 : storeUserDefineLocal
+    - comment : User Defined Clause for Receiving Report (Local)
+  - STODEFINEE
+    - Value : null
+    - 說明 : storeUserDefineEng
+    - comment : User Defined Clause for Receiving Report (Eng.)
+  - STOGLN
+    - Value : 4717546901406
+    - 說明 : storeGLN
+    - comment : Global Location No. (GLN): EAN number of store
+  - STODAYSSEARCH
+    - Value : 60
+    - 說明 : storeDayForSearch
+    - comment : No. of Days For Search Daily Transaction Interface (Max-60)
+  - STOPPDECIMAL
+    - Value : 1
+    - 說明 : storePurchaseDecimal
+    - comment : Purchase Price Decimal
+  - STOSPDECIMAL
+    - Value : 1
+    - 說明 : storeSellingDecimal
+    - comment : Purchase Price Decimal
+  - STOWGSHORT
+    - Value : 1
+    - 說明 : storeShortNameScale
+    - comment : Short name for Weight Scale (0=15Char,1=18Char)
+  - STOPRICELEN
+    - Value : 0
+    - 說明 : storeLengthOfPrice
+    - comment : Length of Price (of Weighting Scale) (0=5 digits,1=6 digits)
+  - STONONSCHORD
+    - Value : 1
+    - 說明 : allowScheduleOrder
+    - comment : Allow to order non-scheduled order to W/H Supplier (0-Not allow,1-Allow)
+  - STOLGORDBY
+    - Value : 0
+    - 說明 : logisticOrder
+    - comment : Logistic Order By (0-Stock Unit, 1-Logistic Unit(Box/Layer/Pallet))
+  - STOWGTYP
+    - Value : D
+    - 說明 : storeTypeofScale
+    - 中文 : 39_磅秤系統型態
+    - [TBLDTL = 39 : Scale System 磅秤系統型態](P4P_TBLDTL_02_39.md)
+    - comment : Weighting Scale *Table 39
+  - STOTAB
+    - Value : ABCDEFGHIJ
+    - 說明 : storeTab
+    - comment : Current Tab Displayed by Store
+  - STOBUCD
+    - Value : 1
+    - 說明 : storeBusinessEnt
+    - 中文 : 24_公司型態
+    - [TBLDTL = 24 : Business Entity 公司型態](P4P_TBLDTL_02_24.md)
+    - comment : Business Entity Code *Table 24
+  - STOPSSTO
+    - Value : TWA024
+    - 說明 : storeActivityLocationCd
+    - comment : Store Activity Location Code (PeopleSoft)
+  - STORETURNPRITOL
+    - Value : 0
+    - 說明 : storeReturnPriceTolerance
+    - comment : Returning Price Tolerance %.The value should be interfaced in the file of SSSYYYYMMDDSO to P4CM+.
+  - STOSTOPOS
+    - Value : 0140
+    - 說明 : storeNumberInPos
+    - comment : Store No. in PoS
+  - STOPSGL
+    - Value : TW010
+    - 說明 : businessUnitForGL
+    - comment : Business Unit for GL Level (PeopleSoft)
+  - STOPSAP
+    - Value : TW011
+    - 說明 : businessUnitForAP
+    - comment : Business Unit for AP Level (PeopleSoft)
+  - STOPSHO
+    - Value : 000
+    - 說明 : hoActivityLocationCd
+    - comment : H/O Activity Location Code (PeopleSoft)
+  - STOPSBC
+    - Value : TWD
+    - 說明 : baseCurrency
+    - comment : Base Currency  (PeopleSoft)
+  - STOPSTZ
+    - Value : E08
+    - 說明 : timeZone
+    - comment : Time Zone  (PeopleSoft)
+  - STOPSCOUNTRY
+    - Value : TAIWAN
+    - 說明 : country
+    - comment : Country  (PeopleSoft)
+  - STOPSCOUNTRYCD
+    - Value : TW
+    - 說明 : countryCd
+    - comment : Country Code  (PeopleSoft)
+  - STOPSORIGIN
+    - Value : S
+    - 說明 : origin
+    - comment : ORIGIN to be sent by Store No./Dept.No (S-Store No; D-Dept No) (PeopleSoft)
+  - STOPSSETID
+    - Value : TWMER
+    - 說明 : setId
+    - comment : Set ID for Merchandize Vendor  (PeopleSoft)
+  - STOPSINTINF
+    - Value : 0
+    - 說明 : internalInterface
+    - comment : Internal Purchase Interface sent by P4CM+  (1-Yes/0-No) (PeopleSoft)
+  - STOALERTTIME1
+    - Value : 5
+    - 說明 : alertTime1
+    - comment : Time to alert before cut-off time 1 (Minutes)
+  - STOALERTTIME2
+    - Value : 15
+    - 說明 : alertTime2
+    - comment : Time to alert before cut-off time 2 (Minutes)
+  - STOALERTTIME3
+    - Value : 30
+    - 說明 : alertTime3
+    - comment : Time to alert before cut-off time 3 (Minutes)
+  - STOALERTCOLOR1
+    - Value : 3
+    - 說明 : alertColor1
+    - 中文 : 51_cut-off time警示顏色
+    - comment : Alert colour according to alert time 1*Table 51
+  - STOALERTCOLOR2
+    - Value : 2
+    - 說明 : alertColor2
+    - 中文 : 51_cut-off time警示顏色
+    - comment : Alert colour according to alert time 2*Table 51
+  - STOALERTCOLOR3
+    - Value : 1
+    - 說明 : alertColor3
+    - comment : Alert colour according to alert time 3*Table 51
+  - STOSPLTLGTPO
+    - Value : 0
+    - 說明 : splitLogisPurOrderDS
+    - comment : Split Logistic Purchase Order by DS Supplier (1-Yes/0-No)
+  - STOTOLEBTWSUG
+    - Value : 50
+    - 說明 : toleranceSuggested
+    - comment : Tolerance between suggested order quantity and final order quantity 
+  - STOINPUTMRP
+    - Value : 0
+    - 說明 : inputMRP
+    - comment : Allow to input MRP in Receiving report (1-Yes/0-No)
+  - STOMRPDIFFPO
+    - Value : 1
+    - 說明 : mrpDifferentPO
+    - comment : Allow receipt of  items with MRP different from PO (1-Yes/0-No)
+  - STOALERTNSP
+    - Value : 0
+    - 說明 : alertNSP
+    - comment : Alert when current NSP > new MRP on receiving process (1-Yes/0-No)
+  - STOPRINTDCOD
+    - Value : P5
+    - 說明 : printerDCOD
+    - comment : Printer for DCOD Automation Receiving report
+  - STODEFAULTLOC
+    - Value : L
+    - 說明 : defaultLocation
+    - 中文 : 52_Location ID in store, 預設Location
+    - [TBLDTL = 52 : Location ID in store](P4P_TBLDTL_02_52.md)
+    - comment : Default Location for received goods*Table 52
+  - STORECRETURNWH
+    - Value : 0
+    - 說明 : receiveReturnWH
+    - comment : Receive Return validation from warehouse supplier (1-Yes/0-No)
+  - STOSTKCONSIGN
+    - Value : 1
+    - 說明 : stockConsignment
+    - comment : Manage stock for consignment items (1-Yes/0-No)
+  - STOSTKLOC
+    - Value : 0
+    - 說明 : stockLocation
+    - comment : Manage stock by Location (1-Yes/0-No)
+  - STOMERGELIST
+    - Value : 1
+    - 說明 : mergeOldList
+    - comment : Merge Old list with New List (1-Yes/0-No)
+  - STOSTKADJIMA
+    - Value : M
+    - 說明 : stockAdjustmentIMA
+    - [TBLDTL = 40 : Stock adjustment Reason 庫存調整原因](P4P_TBLDTL_02_40.md)
+    - comment : Default stock adjustment reason for IMA*Table 40
+  - STPSTKADJFG
+    - Value : 6
+    - 說明 : stockAdjustmentFreeGoods
+    - [TBLDTL = 40 : Stock adjustment Reason 庫存調整原因](P4P_TBLDTL_02_40.md)
+    - comment : Default stock adjustment reason for Unconditional Free Goods*Table 40
+  - STOLOC
+    - Value : L
+    - 說明 : storeLocation
+    - 中文 : 52_Location ID in store, Location有
+    - [TBLDTL = 52 : Location ID in store](P4P_TBLDTL_02_52.md)
+    - comment : Location*Table 52 (Separated each location by ,) 
+  - STOPOFT
+    - Value : null
+    - comment : Purchase Order Message
+  - STOPHONENO
+    - Value : null
+    - comment : Store Telephone No
+  - STOFAXNO
+    - Value : null
+    - comment : Store Fax No
+  - STOSTICKPRINTER
+    - Value : null
+    - comment : Alphanumeric Value of Printer for Return Packing Sticker
+  - STOBYPSRAWF
+    - Value : null
+    - comment : Bypass stop/release from AWF (1=Yes, 0=No)
+  - STOSEMIPRINTER
+    - Value : PS
+    - comment : SemiSafeme Printer
+  - STOECBUS
+    - Value : 1
+    - comment : EC flag follows EC flag model store
+  - BUSINESSFORMAT
+    - Value : HYP
+    - 中文 : 業務型態

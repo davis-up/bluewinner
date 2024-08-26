@@ -1,0 +1,404 @@
+
+# ITMGLD
+
+
+```sql
+   
+    SELECT * FROM ITMGLD
+     FETCH FIRST 10 ROWS ONLY
+
+```
+
+|SEQ|ITMITMID|ITMDPCD|ITMITMCD|ITMMSCD|ITMSPEC|ITMEDESC|ITMLDESC|ITMSHNM|ITMSTKUN|ITMPACK|ITMCAPA|ITMCAPUT|ITMCAPML|ITMCOLNO|ITMSPTYP|ITMTYPSEL|ITMSEACD|ITMSENSIT|ITMTAX|ITMWEIGHT|ITMPCWGH|ITMGRADE|ITMCORIG|ITMRBPCT|ITMINPMON|ITMSTOP|ITMSTOPRS|ITMARO|ITMORDDAY|ITMORDPER|ITMLEADTM|ITMDELDAY|ITMMSUPCD|ITMDSSUP|ITMCRE|ITMUPD|ITMUSR|ITMCREUSR|ITMDELFLAG|ITMTYP|ITMSHELF|ITMDCAPUT|ITMDCAPA|ITMESTOP|ITMSUBTAX|ITMBRAND|ITMSUBBRAND|ITMRETURN|ITMWARRANTY|ITMSHELFLIFE|ITMCOMPLETE|ITMTAB|ITMINTBAR|ITMSHELFVALUE|ITMALLSTOP|ITMITMCDWEB|ITMSCAPA|ITMNPACK|ITMLGFLAG|ITMINGUN|ITMWGHING|ITMWGHINGUN|ITMWGHSTK|ITMINGQTYSTK|ITMTYPO|ITMUSEDATE|ITMUSEDATEUOM|ITMSHELFLIMITUOM|ITMSHELFLIMIT|ITMRTNTMP|ITMRTNPMT|ITMSUPLDESC|ITMSUPEDESC|ITMSUPCAPA|ITMSUPCAPUT|ITMSUPSTKUN|ITMWHCHK|ITMMIXPACK|ITMLGREQ|ITMGEXCF|ITMITMCAT|ITMITMLV|ITMLBRAND|ITMEBRAND|ITMLSBRAND|ITMESBRAND|ITMPROORG|ITMTAXCAT|ITMTAXSUBCAT|ITMDOCTYPE|ITMDOCNAME|ITMFOODATT|ITMAIRPFATT|ITMQTYBOX|ITMNQTYBOX|ITMPKBOX|ITMNPKBOX|ITMCNCD|ITMBRDORI|ITMITMCHAR|ITMCHARSDAT|ITMCHAREDAT|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|01 / 10|604494|14|523136|523|B|Maqaw Beef food|馬告牛肉食品|馬告牛肉乾|Bag袋|1|100 g克|g克|1|null|G|Y|J|4|1|N|null|OTH|TWN|0|2023-09-26 00:00:00.0|null|null|0|null|null|null|null|L015|null|2023-09-25 19:43:35.0|2023-09-25 19:43:41.0|WFSYSTEM|PKNSAIPDMWF|N|3|S|g克|10|null|null|null|null|1|null|D|1|ABCDEFGHIJSOKLQRP|null|365|null|null|100|null|null|null|null|null|null|null|0|null|null|D|242|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|1|null|1|null|null|null|null|null|null|
+|02 / 10|357853|14|510101|510|B|Fuli super rice|天生好米花蓮富里特級米(圓二)9Kg|富里特級米|PACK包|1|9 Kg公斤|Kg公斤|1|0|G|2|0|4|0|N|null|2U|TWN|2|2016-05-25 00:00:00.0|null|null|0|12345|1|2|12345|I120|null|2016-05-24 07:03:33.0|2022-11-01 19:32:32.0|P4PAUT43Y|PKNSAIPDMWF|N|3|S|Kg公斤|1|null|null|null|null|1|0|Y|1|ABCDEFGHIJSTOKLQRP|null|1|null|null|9|null|null|null|null|null|null|null|1|null|null|D|242|1|1|null|null|null|null|null|N|N|0|null|null|null|null|null|null|null|null|null|null|null|null|null|null|3|null|3|null|null|null|null|null|null|
+|03 / 10|595470|23|910592|910|B|Half Toast Paper Bag for Slicer|自動切片半條土司袋(CPP)+藍色無添logo|自動切片半條土司袋|KG公斤|20|1 Kg公斤 x 200|Kg公斤|200|F0|G|1|0|A|1|Y|0|SPE|TWN|2|2023-06-20 00:00:00.0|null|null|0|null|null|null|null|F372|null|2023-06-19 15:22:51.0|2023-08-16 19:03:09.0|PKNSAIPDMWF|PKNSAIPDMWF|N|0|S|Kg公斤|1|null|null|null|null|0|null|Y|1|ABCDEFGHIJSOKLQP|null|5|null|null|1|null|null|null|null|null|null|null|0|null|null|D|1215|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|20|null|1|null|null|null|null|null|null|
+|04 / 10|417647|35|106011|106|B|Wheel Cleaner|KING WAX鋼圈潔亮劑880ML|鋼圈潔亮劑|Bottle瓶|6|880 ml毫升|ml毫升|1|null|G|2|0|4|1|N|null|S|TWN|0|2017-11-21 00:00:00.0|null|null|0|1234567|1|3|1234567|K582|C943|2017-11-20 13:14:52.0|2023-12-11 16:13:09.0|PKNSAIPDMWF|PKNSAIPDMWF|N|3|S|ml毫升|100|null|null|null|null|0|null|null|1|ABCDEFGHIJSTOKLQRP|null|null|null|null|880|null|null|null|null|null|null|null|1|null|null|null|null|null|null|null|null|null|null|null|null|null|0|null|null|null|null|null|null|null|null|null|null|null|null|null|null|6|null|1|null|null|null|null|null|null|
+|05 / 10|604495|14|230577|230|B|Chocolate 75  with cranberries|露特經典蔓越莓巧克力|蔓越莓巧克力|PC片|1|100 g克|g克|1|null|G|5|0|4|1|N|null|IOW3|LTU|0|2023-09-26 00:00:00.0|null|null|0|1234567|1|1|1234567|C433|8972|2023-09-25 19:43:35.0|2024-03-13 10:44:48.0|PKP4TPWF|PKNSAIPDMWF|N|3|S|g克|100|null|null|null|null|0|0|M|1|ABCDEFGHIJSTOKLQRP|null|12|null|null|100|null|null|null|null|null|null|null|0|null|null|D|179|0|0|null|null|null|null|null|N|N|0|null|null|null|null|null|null|null|null|null|null|null|null|null|null|12|null|12|null|null|LTU|null|null|null|
+|06 / 10|358113|10|202898|202|C|C-Sparkling Rose Kieffer 200ml|家福凱芙粉紅氣泡酒200毫升|家福凱芙粉紅氣泡酒|Bottle瓶|3|200 ml毫升|ml毫升|1|null|G|C|0|5|1|N|null|IW1|FRA|0|2016-05-26 00:00:00.0|null|null|0|1234567|1|1|1234567|J775|0526|2016-05-26 14:04:40.0|2024-02-27 18:31:34.0|AutoRelease|F000009360|N|3|S|ml毫升|100|null|null|null|null|1|0|null|1|ABCDEFGHIJSOKLQRP|1|null|null|null|200|null|null|null|null|null|null|null|0|null|null|null|null|1|1|null|null|null|null|null|N|N|0|null|null|null|null|null|null|null|null|null|null|null|null|null|null|24|null|8|null|null|null|null|null|null|
+|07 / 10|604496|24|100107|100|C|Pork Loin Steak|冷藏台灣豬里肌肉排|冷藏台灣豬里肌肉排|Kg公斤|1|1 Kg公斤|Kg公斤|1|F1|G|2|0|4|0|Y|0|1U|TWN|0|2023-09-26 00:00:00.0|null|null|0|null|null|null|null|G279|null|2023-09-25 19:43:35.0|2023-09-26 11:45:31.0|PKNSAIPDMWF|PKNSAIPDMWF|N|1|S|g克|100|null|null|null|null|1|null|D|1|ABCDEFGHISTOKLQRP|null|4|null|null|1|null|null|null|null|null|null|null|1|null|null|D|1|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|1|null|1|null|null|TWN|null|null|null|
+|08 / 10|417648|35|105025|105|B|Rubber Protectant|KING WAX輪胎黑亮精880ML|輪胎黑亮精|Bottle瓶|6|880 ml毫升|ml毫升|1|null|G|2|0|4|1|N|null|S|TWN|0|2017-11-21 00:00:00.0|2022-01-05 00:00:00.0|2|0|1234567|1|3|1234567|K582|C943|2017-11-20 13:14:52.0|2023-12-11 16:13:09.0|PKNSAIPDMWF|PKNSAIPDMWF|N|3|S|ml毫升|100|2049-12-31 00:00:00.0|null|null|null|0|null|null|1|ABCDEFGHIJSTOKLQRP|null|null|null|null|880|null|null|null|null|null|null|null|1|null|null|null|null|null|null|null|null|null|null|null|null|null|0|null|null|null|null|null|null|null|null|null|null|null|null|null|null|6|null|1|null|null|null|null|null|null|
+|09 / 10|575486|22|031013|031|B|Japanese green onions|日本鳥取大蔥200g/袋|日本鳥取大蔥|Bag袋|1|1 Bag袋|Bag袋|1|F2|G|Y|0|4|0|N|null|OTH|JPN-31|5|2022-10-21 00:00:00.0|null|null|0|null|null|null|null|J336|null|2022-10-20 10:32:58.0|2023-12-14 19:41:44.0|AutoRelease|PKNSAIPDMWF|N|2|S|Bag袋|1|null|null|null|null|1|null|null|1|ABCDEFGHIJSTOKLQRP|1|null|null|null|1|null|null|null|null|null|null|null|0|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|1|null|1|null|null|JPN-31|null|null|null|
+|10 / 10|604497|14|604007|604|B|Ailanthus Prickly Ash Powder|刺蔥粉|刺蔥粉|CAN罐|1|25 g克|g克|1|null|G|Y|J|4|1|N|null|OTH|TWN|0|2023-09-26 00:00:00.0|null|null|0|null|null|null|null|L015|null|2023-09-25 19:43:35.0|2023-09-25 19:43:44.0|WFSYSTEM|PKNSAIPDMWF|N|3|S|g克|10|null|null|null|null|1|null|D|1|ABCDEFGHIJSOKLQRP|null|730|null|null|25|null|null|null|null|null|null|null|0|null|null|D|485|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|null|1|null|1|null|null|null|null|null|null|
+
+
+- ITMGLD [com.ss.c4.p4p.referential.model.ItemModel]
+  - ITMITMID
+    - Value : 604494
+    - PK
+    - 說明 : itemId
+    - comment : Item ID
+  - ITMDPCD
+    - Value : 14
+    - FK (MSTMS.MSTMSCD), [MSTMS](P4P_MSTMS_00.md)
+    - 說明 : deptCode
+    - comment : Department code
+  - ITMITMCD
+    - Value : 523136
+    - 說明 : itemCode
+    - comment : Item Code
+  - ITMMSCD
+    - Value : 523
+    - FK (MSTMS.MSTMSCD), [MSTMS](P4P_MSTMS_00.md)
+    - 說明 : mdsCode
+    - comment : Merchandise structure code
+  - ITMSPEC
+    - Value : B
+    - 說明 : specificItem
+    - comment : Specific Item(B-Brand, C-Carrefour, F-First Price) *Table 356
+  - ITMEDESC
+    - Value : Maqaw Beef food
+    - 說明 : engName
+    - comment : Item English Description
+  - ITMLDESC
+    - Value : 馬告牛肉食品
+    - 說明 : localName
+    - comment : Item Local Description
+  - ITMSHNM
+    - Value : 馬告牛肉乾
+    - 說明 : shortName
+    - comment : Short Description
+  - ITMSTKUN
+    - Value : Bag袋
+    - 說明 : stockUnit
+    - comment : Stock Unit *Table 25
+  - ITMPACK
+    - Value : 1
+    - 說明 : qtyperPack
+    - comment : Quantity per pack
+  - ITMCAPA
+    - Value : 100 g克
+    - 說明 : sellingCapacityUnitMulti
+    - comment : Selling Capacity + Unit + 'X' + multiplier e.g. 250 ML x 6
+  - ITMCAPUT
+    - Value : g克
+    - 說明 : capacityUnit
+    - comment : Capacity unit *Table 42
+  - ITMCAPML
+    - Value : 1
+    - 說明 : capacityMultiplier
+    - comment : Capacity multiplier
+  - ITMCOLNO
+    - Value : null
+    - 說明 : collectionNo
+    - comment : Collection No
+  - ITMSPTYP
+    - Value : G
+    - 說明 : spTypeCode
+    - comment : SP type Code *Table4
+  - ITMTYPSEL
+    - Value : Y
+    - 說明 : typeOfSale
+    - comment : Type of Sales *Table 5
+  - ITMSEACD
+    - Value : J
+    - 說明 : seasonCode
+    - comment : Season Code *Table 6
+  - ITMSENSIT
+    - Value : 4
+    - 說明 : sensitivenss
+    - comment : Sensitiveness *Table 7
+  - ITMTAX
+    - Value : 1
+    - 說明 : vatCode
+    - comment : Vat Code
+  - ITMWEIGHT
+    - Value : N
+    - 說明 : weight
+    - comment : Weight (Y/N)(Y-item need to put on scale for selling)
+  - ITMPCWGH
+    - Value : null
+    - 說明 : soldBy
+    - comment : Pcs / weight(0-by weight,1-by piece Will have value when weight (Y/N) is filled up with ?Y?.  Blank in other case.) *Table 28
+  - ITMGRADE
+    - Value : OTH
+    - 說明 : grade
+    - comment : Grade *Table 354
+  - ITMCORIG
+    - Value : TWN
+    - 說明 : countryOfOrigin
+    - comment : Country of Origin
+  - ITMRBPCT
+    - Value : 0
+    - 說明 : rebatePercent
+    - comment : Rebate %
+  - ITMINPMON
+    - Value : 2023-09-26 00:00:00.0
+    - 說明 : inputDate
+    - comment : Input Date
+  - ITMSTOP
+    - Value : null
+    - 說明 : stopStartDate
+    - comment : Stop Item (From Date)
+  - ITMSTOPRS
+    - Value : null
+    - 說明 : stopItemReasonCode
+    - comment : Stop Item Reason Code *Table 10
+  - ITMARO
+    - Value : 0
+    - 說明 : autoReplenishment
+    - comment : 0-modification on suggested ordered quantity is allowed,1-No modification on suggested ordered quantity
+  - ITMORDDAY
+    - Value : null
+    - 說明 : orderDay
+    - comment : Order day (in weekday)
+  - ITMORDPER
+    - Value : null
+    - 說明 : orderPeriod
+    - comment : Order Period (Days)
+  - ITMLEADTM
+    - Value : null
+    - 說明 : leadTime
+    - comment : Delivery Lead time (Days)
+  - ITMDELDAY
+    - Value : null
+    - 說明 : deliveryDay
+    - comment : Delivery Days (in weekday)
+  - ITMMSUPCD
+    - Value : L015
+    - 說明 : mainSupplier
+    - comment : Main Supplier
+  - ITMDSSUP
+    - Value : null
+    - 說明 : directSupplier
+    - comment : Direct Supplier
+  - ITMCRE
+    - Value : 2023-09-25 19:43:35.0
+    - 說明 : cred
+    - comment : Creation date
+  - ITMUPD
+    - Value : 2023-09-25 19:43:41.0
+    - 說明 : lastUpd
+    - comment : Date of last update
+  - ITMUSR
+    - Value : WFSYSTEM
+    - 說明 : lastUser
+    - comment : Last user
+  - ITMCREUSR
+    - Value : PKNSAIPDMWF
+    - 說明 : creUser
+    - comment : Creation User
+  - ITMDELFLAG
+    - Value : N
+    - 說明 : deletionFlag
+    - comment : Request for deletion flag (Y/N)
+  - ITMTYP
+    - Value : 3
+    - 說明 : itemType
+    - comment : Item Type *Table 27
+  - ITMSHELF
+    - Value : S
+    - 說明 : shelfTagSize
+    - comment : Shelf Tag Size *Table 32
+  - ITMDCAPUT
+    - Value : g克
+    - 說明 : displayCapacityUnit
+    - comment : Display Capacity Unit *Table 42
+  - ITMDCAPA
+    - Value : 10
+    - 說明 : displayCapacity
+    - comment : Display Capacity
+  - ITMESTOP
+    - Value : null
+    - 說明 : stopEndDate
+    - comment : Stop Item (End Date)
+  - ITMSUBTAX
+    - Value : null
+    - 說明 : substituteTax
+    - comment : Substitute Tax *Table 30
+  - ITMBRAND
+    - Value : null
+    - 說明 : itemBrand
+    - comment : Brand; get value from ATTCLASS.ATCCLCD = 'BRND'
+  - ITMSUBBRAND
+    - Value : null
+    - 說明 : itemSubBrand
+    - comment : Sub Brand
+  - ITMRETURN
+    - Value : 1
+    - 說明 : itemReturnable
+    - comment : Returnable for nonstop item ( 0=No, 1=Yes )
+  - ITMWARRANTY
+    - Value : null
+    - 說明 : itemWarranty
+    - comment : Warranty 1=Yes, 0=No
+  - ITMSHELFLIFE
+    - Value : D
+    - 說明 : itemShelflife
+    - comment : Shelf Life *Table 47
+  - ITMCOMPLETE
+    - Value : 1
+    - 說明 : itemCompleted
+    - comment : Item Creation Completed (1=Yes, 0=No)
+  - ITMTAB
+    - Value : ABCDEFGHIJSOKLQRP
+    - 說明 : itemTab
+    - comment : Current Tab Displayed by Item
+  - ITMINTBAR
+    - Value : null
+    - 說明 : lastNoOfNonweightIntenalBarcode
+    - comment : Last number of non-weighted internal barcode
+  - ITMSHELFVALUE
+    - Value : 365
+    - 說明 : itemShelflifeValue
+    - comment : Value of Shelf Life
+  - ITMALLSTOP
+    - Value : null
+    - 說明 : itemAllStop
+    - comment : The latest date that all sub codes in all stores stopped
+  - ITMITMCDWEB
+    - Value : null
+    - 說明 : itemExternalCode
+    - comment : Item External Code (Web Portal Item Code)
+  - ITMSCAPA
+    - Value : 100
+    - 說明 : sellingCapacity
+    - comment : Selling Capacity
+  - ITMNPACK
+    - Value : null
+    - 說明 : newQtyperPack
+    - comment : To keep data consistency among NSO+, P4CM+ and P4MD+ when make an order.  (Due to CMS+ and MD+ share the same server.)
+  - ITMLGFLAG
+    - Value : null
+    - 說明 : logisticItem
+    - comment : Logistic Item Flag.
+  - ITMINGUN
+    - Value : null
+    - 說明 : ingredientUnit
+    - comment : Ingredient Unit *Table 9
+  - ITMWGHING
+    - Value : null
+    - 說明 : weightPerIngredient
+    - comment : Weight per ingredient unit
+  - ITMWGHINGUN
+    - Value : null
+    - 說明 : weightPerIngredientUnit
+    - comment : UOM of Weight per ingredient unit *Table 42 (TBDCHA1=ï¿½Wï¿½ only)
+  - ITMWGHSTK
+    - Value : null
+    - 說明 : weightPerStock
+    - comment : Weight per stock unit
+  - ITMINGQTYSTK
+    - Value : null
+    - 說明 : ingredientPerStock
+    - comment : Ingredient quantity per stock unit
+  - ITMTYPO
+    - Value : 0
+    - 說明 : itemTypo
+    - comment : Flag for item typology at sub-code level (0/NULL:sub code is not typology item, 1:Typology sub-code)
+  - ITMUSEDATE
+    - Value : null
+    - 說明 : useByDateValue
+    - comment : Use by date
+  - ITMUSEDATEUOM
+    - Value : null
+    - 說明 : useByDate
+    - comment : Use by date unit * Parameter table 47
+  - ITMSHELFLIMITUOM
+    - Value : D
+    - 說明 : itemShelfLifeLimitUOM
+    - comment : ShelflimitUOM
+  - ITMSHELFLIMIT
+    - Value : 242
+    - 說明 : itemShelfLifeLimit
+    - comment : Shelflimit
+  - ITMRTNTMP
+    - Value : null
+    - comment : Returnable for Temporary stop ( 0=No, 1=Yes )
+  - ITMRTNPMT
+    - Value : null
+    - comment : Returnable for Permanent stop ( 0=No, 1=Yes )
+  - ITMSUPLDESC
+    - Value : null
+    - comment : Supplier item local name
+  - ITMSUPEDESC
+    - Value : null
+    - comment : Supplier item English name
+  - ITMSUPCAPA
+    - Value : null
+    - comment : Supplier Capacity
+  - ITMSUPCAPUT
+    - Value : null
+    - comment : Supplier Capacity Unit*Table 42
+  - ITMSUPSTKUN
+    - Value : null
+    - comment : Supplier Stock Unit*Table 25
+  - ITMWHCHK
+    - Value : null
+    - comment : warehouse checking mark ( Y/N )
+  - ITMMIXPACK
+    - Value : null
+    - comment : Return mix packing ( Y/N )
+  - ITMLGREQ
+    - Value : null
+    - comment : Logistic box define (1-Yes/0-No)
+  - ITMGEXCF
+    - Value : null
+    - comment : Good Exchange Criteria flag (Y/N)
+  - ITMITMCAT
+    - Value : null
+    - comment : Item Category *Table 744
+  - ITMITMLV
+    - Value : null
+    - comment : Item Level *Table 752
+  - ITMLBRAND
+    - Value : null
+    - comment : Brand Local
+  - ITMEBRAND
+    - Value : null
+    - comment : Brand English
+  - ITMLSBRAND
+    - Value : null
+    - comment : Sub Brand Local
+  - ITMESBRAND
+    - Value : null
+    - comment : Sub Brand English
+  - ITMPROORG
+    - Value : null
+    - comment : Product origin (manufacturer)
+  - ITMTAXCAT
+    - Value : null
+    - comment : Tax Category (Table MSTDIVTAX)
+  - ITMTAXSUBCAT
+    - Value : null
+    - comment : Tax Sub Category (Table TAXCAT)
+  - ITMDOCTYPE
+    - Value : null
+    - comment : Document Type *Table 749
+  - ITMDOCNAME
+    - Value : null
+    - comment : Document Name
+  - ITMFOODATT
+    - Value : null
+    - comment : Food Attribute *Table 57
+  - ITMAIRPFATT
+    - Value : null
+    - comment : Airproof Attribute *Table 58
+  - ITMQTYBOX
+    - Value : 1
+    - comment : Quantity per Box
+  - ITMNQTYBOX
+    - Value : null
+    - comment : New Quantity per Box
+  - ITMPKBOX
+    - Value : 1
+    - comment : Pack per Box
+  - ITMNPKBOX
+    - Value : null
+    - comment : New Pack per Box
+  - ITMCNCD
+    - Value : null
+    - comment : CN Code
+  - ITMBRDORI
+    - Value : null
+    - comment : Brand of Origin
+  - ITMITMCHAR
+    - Value : null
+    - comment : Item Characteristic
+  - ITMCHARSDAT
+    - Value : null
+    - comment : Item Characteristic Start Date
+  - ITMCHAREDAT
+    - Value : null
+    - comment : Item Characteristic End Date

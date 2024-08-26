@@ -1,0 +1,70 @@
+
+# ITMMST
+
+
+```sql
+   
+    SELECT * FROM ITMMST
+     FETCH FIRST 10 ROWS ONLY
+
+```
+
+|SEQ|ITMSITMID|ITMSSDATE|ITMSEDATE|ITMSITMCD|ITMSDPCD|ITMSMSCD|ITMSCRE|ITMSUPD|ITMSUSR|ITMSCREUSR|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|01 / 10|589874|2023-04-20 00:00:00.0|2049-12-31 00:00:00.0|312265|76|312|2023-04-19 09:35:26.0|2023-04-19 09:35:26.0|F000008539|F000008539|
+|02 / 10|14640|2001-03-01 00:00:00.0|2049-12-31 00:00:00.0|103020|12|103|2009-05-08 19:00:00.0|2024-04-01 19:33:22.0|AutoRelease|MIGRATION|
+|03 / 10|16068|2009-01-01 00:00:00.0|2049-12-31 00:00:00.0|632213|14|632|2009-05-08 19:00:00.0|2023-12-18 15:51:24.0|AutoRelease|MIGRATION|
+|04 / 10|575486|2022-10-21 00:00:00.0|2049-12-31 00:00:00.0|031013|22|031|2022-10-20 10:32:58.0|2023-12-14 19:41:46.0|AutoRelease|PKNSAIPDMWF|
+|05 / 10|590432|2023-04-26 00:00:00.0|2049-12-31 00:00:00.0|413461|62|413|2023-04-25 16:17:49.0|2023-04-25 16:17:49.0|PKNSAIPDMWF|PKNSAIPDMWF|
+|06 / 10|16077|1998-07-01 00:00:00.0|2049-12-31 00:00:00.0|013013|20|013|2009-05-08 19:00:00.0|2023-06-13 19:44:17.0|PKP4TPWF|MIGRATION|
+|07 / 10|16078|1998-01-01 00:00:00.0|2049-12-31 00:00:00.0|509006|14|509|2009-05-08 19:00:00.0|2023-11-21 19:34:03.0|AutoRelease|MIGRATION|
+|08 / 10|380209|2016-12-03 00:00:00.0|2049-12-31 00:00:00.0|613985|40|613|2016-12-02 14:45:04.0|2018-06-09 13:44:00.0|PCM-10239|F000027623|
+|09 / 10|16080|2006-01-01 00:00:00.0|2049-12-31 00:00:00.0|509008|14|509|2009-05-08 19:00:00.0|2023-03-24 12:12:26.0|AutoRelease|MIGRATION|
+|10 / 10|16085|2002-05-01 00:00:00.0|2049-12-31 00:00:00.0|071001|15|071|2009-05-08 19:00:00.0|2023-12-22 16:05:11.0|SPOTACTION|MIGRATION|
+
+
+- ITMMST [ItemMdStructureModel]
+  - ITMSITMID
+    - Value : 589874
+    - PK,FK (ITMGLD.ITMITMID), [ITMGLD](P4P_ITMGLD_00.md)
+    - 說明 : itemModel
+    - comment : Item ID
+  - ITMSSDATE
+    - Value : 2023-04-20 00:00:00.0
+    - PK
+    - 說明 : startDate
+    - comment : Merchandise Structure Start Date
+  - ITMSEDATE
+    - Value : 2049-12-31 00:00:00.0
+    - 說明 : endDate
+    - comment : Merchandise Structure End Date
+  - ITMSITMCD
+    - Value : 312265
+    - 說明 : itemCode
+    - comment : Item Code
+  - ITMSDPCD
+    - Value : 76
+    - FK (MSTMS.MSTMSCD), [MSTMS](P4P_MSTMS_00.md)
+    - 說明 : departmentModel
+    - comment : Department code
+  - ITMSMSCD
+    - Value : 312
+    - FK (MSTMS.MSTMSCD), [MSTMS](P4P_MSTMS_00.md)
+    - 說明 : mdsCode
+    - comment : Merchandise structure code
+  - ITMSCRE
+    - Value : 2023-04-19 09:35:26.0
+    - 說明 : createDate
+    - comment : Creation Date
+  - ITMSUPD
+    - Value : 2023-04-19 09:35:26.0
+    - 說明 : updateDate
+    - comment : Date of last update
+  - ITMSUSR
+    - Value : F000008539
+    - 說明 : updateUser
+    - comment : Last User
+  - ITMSCREUSR
+    - Value : F000008539
+    - 說明 : createUser
+    - comment : Creation User
