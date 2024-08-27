@@ -1,0 +1,254 @@
+
+# SUPGLD
+
+
+```sql
+   
+    SELECT * FROM SUPGLD
+     FETCH FIRST 10 ROWS ONLY
+
+```
+
+|SEQ|SUPSUPCD|SUPTYP|SUPEDESC|SUPLDESC|SUPTELNO|SUPFAXNO|SUPSTPPMTR|SUPADDR1|SUPADDR2|SUPADDR3|SUPRMT|SUPLGFLAG|SUPCRE|SUPUPD|SUPUSR|SUPTAXABLE|SUPSTATE|SUPTRNPS|SUPSTPBUSDATE|SUPSTPBUSR|SUPSTPPMTSD|SUPSTPPMTED|SUPCREUSR|SUPCSTNO|SUPPANNO|SUPMUNICIPAL|SUPCITY|SUPREGION|SUPGLN|SUPMSMENO|SUPSERVTAXNO|SUPEXCISEID|SUPSUPCDWEB|SUPSTPPMTDEP|SUPSTPBUSDEP|SUPBUSENT|SUPTEXKEY|SUPCROSSDP|SUPMINORDBY|SUPMINQTY|SUPMINAMT|SUPZIPCD|SUPMAIL|SUPRTNTELNO|SUPRTNFAXNO|SUPPAYCD|SUPBANKCD|SUPBANKACCD|SUPEFT|SUPMIXPACK|SUPRTNMEDIA|SUPCTRFG|SUPLEGALREP|SUPFRADD|SUPFRCOM|SUPRECONP|SUPRECONE|SUPFROZENSTATUS|SUPFROZENDATE|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|01 / 10|G103|C|San Yes Automotive Technology Co.,Ltd.|DC--三益制動科技股份有限公司|06-6984591|06-6986308|null|台南市官田區二鎮里建業路４１號|null|null|G103|null|2009-05-08 19:00:00.0|2021-02-06 16:15:31.0|PKSUPFROZE|1|null|2021-01-30 16:29:51.0|2009-05-08 00:00:00.0|null|null|null|MIGRATION|null|null|null|null|null|0710300000000|null|null|null|G103|null|null|null|null|0|null|null|null|７２０|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|3|2021-02-08 01:07:34.0|
+|02 / 10|G266|C|Kai Lin Lndustry CO.,LTD.|DC--凱臨實業有限公司|03-3218133|03-3120901|null|桃園縣蘆竹鄉錦順街４８之１４號|null|null|G266|null|2009-05-08 19:00:00.0|2021-02-06 16:15:31.0|PKSUPFROZE|1|null|2021-01-30 16:29:51.0|2010-03-30 00:00:00.0|null|null|null|MIGRATION|null|null|null|null|null|0726600000000|null|null|null|G266|null|null|null|null|0|null|null|null|３３８|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|3|2021-02-08 01:07:34.0|
+|03 / 10|G267|C|I MAI CO.,LTD|伊買行銷股份有限公司|04-25257808|04-25220234|null|台中市豐原區水源路４２７巷８號|null|null|G267|null|2009-05-08 19:00:00.0|2023-05-03 20:20:37.0|PKSUPFROZE|1|null|2021-05-05 20:24:32.0|2021-05-06 00:00:00.0|4|null|null|MIGRATION|null|null|null|null|null|0623800000000|null|null|null|G267|2014-03-07 00:00:00.0|null|null|null|0|null|null|null|４２０|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|3|2023-05-05 01:13:16.0|
+|04 / 10|G268|C|YARK TECHNOLOGIES & DEVELOPMENT,INC.|DC--亞克科技開發股份有限公司|04-24865558|04-24865559|null|台中市大里區環中東路六段３２號|null|null|G268|null|2009-05-08 19:00:00.0|2021-02-06 16:15:31.0|PKSUPFROZE|1|null|2021-01-30 16:29:51.0|2012-05-22 00:00:00.0|null|null|null|MIGRATION|null|null|null|null|null|4714005900017|null|null|null|G268|null|null|null|null|0|null|null|null|４１２|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|3|2021-02-08 01:07:34.0|
+|05 / 10|5959|E|Kal Yceeh|凱悅|-|-|null|null|null|null|5959|null|2009-05-08 19:00:00.0|2017-07-12 18:40:08.0|L2MD-3197|1|null|2010-04-06 19:50:32.0|null|null|null|null|MIGRATION|null|null|null|null|null|null|null|null|null|5959|null|null|null|null|0|null|null|null|null|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|null|null|
+|06 / 10|5960|E|Tai Sun|台松|-|-|null|null|null|null|5960|null|2009-05-08 19:00:00.0|2017-07-12 18:40:08.0|L2MD-3197|1|null|2010-04-06 19:50:32.0|null|null|null|null|MIGRATION|null|null|null|null|null|null|null|null|null|5960|null|null|null|null|0|null|null|null|null|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|null|null|
+|07 / 10|5966|C|EAC CONSUMER PRODUCTS LTD APS TAWAIN|DC--丹麥商寶龍洋股份有限公司台北分公司|02-2992900|02-2980934|null|新北市五股區五工六路一六號（五股|工業區）|null|5966|null|2009-05-08 19:00:00.0|2021-01-23 16:10:47.0|PKSUPFROZE|1|null|2021-01-16 16:00:37.0|2009-05-08 00:00:00.0|null|null|null|MIGRATION|null|null|null|null|null|null|null|null|null|5966|null|null|null|null|0|null|null|null|２４８|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|3|2021-01-25 01:05:03.0|
+|08 / 10|5969|E|MING SHIUN|明勳|-|-|null|null|null|null|5969|null|2009-05-08 19:00:00.0|2017-07-12 18:40:08.0|L2MD-3197|1|null|2010-04-06 19:50:32.0|null|null|null|null|MIGRATION|null|null|null|null|null|null|null|null|null|5969|null|null|null|null|0|null|null|null|null|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|null|null|
+|09 / 10|5973|E|MING GUH|銘固|-|-|null|null|null|null|5973|null|2009-05-08 19:00:00.0|2017-07-12 18:40:08.0|L2MD-3197|1|null|2010-04-06 00:00:00.0|null|null|null|null|MIGRATION|null|null|null|null|null|0885000000000|null|null|null|5973|null|null|null|null|0|null|null|null|null|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|null|null|
+|10 / 10|5974|E|FANN LUEN|汎倫資訊股份有限公司|02-27858900|02-27852055|null|台北市復興南路二段二三六號五樓之四|null|null|5974|null|2009-05-08 19:00:00.0|2017-07-12 18:40:08.0|L2MD-3197|1|null|2010-04-06 00:00:00.0|null|null|null|null|MIGRATION|null|null|null|null|null|null|null|null|null|5974|null|null|null|null|0|null|null|null|１０６|null|null|null|null|null|null|null|N|null|N|null|null|null|null|null|null|null|
+
+
+- SUPGLD [Supplier]
+  - SUPSUPCD
+    - Value : G103
+    - PK
+    - 說明 : supplierCode
+    - comment : Supplier code
+  - SUPTYP
+    - Value : C
+    - 說明 : supplierType
+    - comment : Supplier Type *Table 627 (max length = 1)
+  - SUPEDESC
+    - Value : San Yes Automotive Technology Co.,Ltd.
+    - 說明 : suppEngName
+    - comment : Supplier English Description
+  - SUPLDESC
+    - Value : DC--三益制動科技股份有限公司
+    - 說明 : suppLocalName
+    - comment : Supplier Local Description
+  - SUPTELNO
+    - Value : 06-6984591
+    - 說明 : suppPhone
+    - comment : Phone number
+  - SUPFAXNO
+    - Value : 06-6986308
+    - 說明 : suppFax
+    - comment : Fax number
+  - SUPSTPPMTR
+    - Value : null
+    - 說明 : suppStopPaymentReason
+    - [TBLDTL = 11 : Stop Payment Reason 止付原因](P4P_TBLDTL_02_11.md)
+    - comment : Stop Payment Reason *Table 11
+  - SUPADDR1
+    - Value : 台南市官田區二鎮里建業路４１號
+    - 說明 : suppAddr1
+    - comment : Address Line 1
+  - SUPADDR2
+    - Value : null
+    - 說明 : suppAddr2
+    - comment : Address Line 2
+  - SUPADDR3
+    - Value : null
+    - 說明 : suppAddr3
+    - comment : Address Line 3
+  - SUPRMT
+    - Value : G103
+    - 說明 : suppRemitt
+    - comment : Remit Supplier
+  - SUPLGFLAG
+    - Value : null
+    - 說明 : suppLogistics
+    - [TBLDTL = 633 : Logistic Flag Setup 後勤標示設定](P4P_TBLDTL_02_633.md)
+    - comment : Logistic Flag (S-Internal Transfer, L-Logistics Center, P-Purchase Office) *Table 633
+  - SUPCRE
+    - Value : 2009-05-08 19:00:00.0
+    - 說明 : cred
+    - comment : Creation date
+  - SUPUPD
+    - Value : 2021-02-06 16:15:31.0
+    - 說明 : lastUpd
+    - comment : Date of last update
+  - SUPUSR
+    - Value : PKSUPFROZE
+    - 說明 : lastUser
+    - comment : Last user
+  - SUPTAXABLE
+    - Value : 1
+    - 說明 : suppTaxable
+    - comment : Supplier Taxable or Non Taxable Flag (1-Taxable, 0 - Non Taxable)
+  - SUPSTATE
+    - Value : null
+    - 說明 : supplierState
+    - comment : Supplier State *Table 37
+  - SUPTRNPS
+    - Value : 2021-01-30 16:29:51.0
+    - 說明 : supplierTransfertoPS
+    - comment : Transfer to PS Date
+  - SUPSTPBUSDATE
+    - Value : 2009-05-08 00:00:00.0
+    - 說明 : suppStopBusinessDate
+    - comment : Stop Business Date
+  - SUPSTPBUSR
+    - Value : null
+    - 說明 : suppStopBusinessReason
+    - [TBLDTL = 629 : Stop Business Reason 停止合作原因](P4P_TBLDTL_02_629.md)
+    - comment : Stop Business Reason *Table 629
+  - SUPSTPPMTSD
+    - Value : null
+    - 說明 : suppStopPaymentStartDate
+    - comment : Stop Payment Start Date
+  - SUPSTPPMTED
+    - Value : null
+    - 說明 : suppStopPaymentEndDate
+    - comment : Stop Payment End Date
+  - SUPCREUSR
+    - Value : MIGRATION
+    - 說明 : creUser
+    - comment : Creation User
+  - SUPCSTNO
+    - Value : null
+    - 說明 : suppCSTNo
+    - comment : CST No.
+  - SUPPANNO
+    - Value : null
+    - 說明 : suppPANNo
+    - comment : PAN No.
+  - SUPMUNICIPAL
+    - Value : null
+    - 說明 : suppMunicipal
+    - [TBLDTL = 21 : City 縣市](P4P_TBLDTL_02_21.md)
+    - comment : Municipal *Table 45
+  - SUPCITY
+    - Value : null
+    - 說明 : suppCity
+    - [TBLDTL = 1 : Region Code 區域碼](P4P_TBLDTL_02_1.md)
+    - comment : City *Table 21
+  - SUPREGION
+    - Value : null
+    - 說明 : suppRegion
+    - comment : Region Code *Table 1
+  - SUPGLN
+    - Value : 0710300000000
+    - 說明 : suppGLN
+    - comment : Supplier GLN
+  - SUPMSMENO
+    - Value : null
+    - 說明 : suppMSMENo
+    - comment : MSME No
+  - SUPSERVTAXNO
+    - Value : null
+    - 說明 : suppServTaxNo
+    - comment : Service Tax No
+  - SUPEXCISEID
+    - Value : null
+    - 說明 : suppExciseId
+    - comment : Excise ID
+  - SUPSUPCDWEB
+    - Value : G103
+    - 說明 : supsupcdweb
+    - comment : Supplier External Code (Web Portal Supplier Code)
+  - SUPSTPPMTDEP
+    - Value : null
+    - comment : Date of all departments have been set stop payment
+  - SUPSTPBUSDEP
+    - Value : null
+    - comment : Date of all departments have been set stop business
+  - SUPBUSENT
+    - Value : null
+    - 說明 : suppBusEnt
+    - [TBLDTL = 24 : Business Entity 公司型態](P4P_TBLDTL_02_24.md)
+    - comment : Business Entity *Table 24
+  - SUPTEXKEY
+    - Value : null
+    - comment : Texas Supplier Key
+  - SUPCROSSDP
+    - Value : 0
+    - 說明 : suppcheckCrossDept
+    - comment : Cross-Dept. Order or Non Cross-Dept. Order Y/N (1=Yes,0=No)
+  - SUPMINORDBY
+    - Value : null
+    - 說明 : suppMinOrder
+    - [TBLDTL = 635 : Minimum Order Type 最小訂貨型態](P4P_TBLDTL_02_635.md)
+    - comment : Minimum Order  Type * Table 635
+  - SUPMINQTY
+    - Value : null
+    - 說明 : suppMinQty
+    - comment : Minimum Order Quantity
+  - SUPMINAMT
+    - Value : null
+    - 說明 : suppMinAmt
+    - comment : Minimum Order Amount
+  - SUPZIPCD
+    - Value : ７２０
+    - 說明 : suppZipCode
+  - SUPMAIL
+    - Value : null
+    - 說明 : suppEmail
+    - comment : Supplier Email Address
+  - SUPRTNTELNO
+    - Value : null
+    - 說明 : suppRtnPhone
+    - comment : Return to supplier� Fax number
+  - SUPRTNFAXNO
+    - Value : null
+    - 說明 : suppRtnFax
+  - SUPPAYCD
+    - Value : null
+    - [TBLDTL = 640 : Supplier pay group code desc](P4P_TBLDTL_02_640.md)
+    - comment : Supplier Pay Group unit * table 640
+  - SUPBANKCD
+    - Value : null
+    - [TBLDTL = 631 : Bank Code Set Up 銀行資料設定](P4P_TBLDTL_02_631.md)
+    - comment : C4 Bank Information unit * table 631
+  - SUPBANKACCD
+    - Value : null
+    - comment : C4 Bank Account Code * table 641
+  - SUPEFT
+    - Value : null
+    - comment : EFT form
+  - SUPMIXPACK
+    - Value : N
+    - comment : Return mix packing (Y/N)
+  - SUPRTNMEDIA
+    - Value : null
+    - [TBLDTL = 805 : Return Media 退貨方式](P4P_TBLDTL_02_805.md)
+    - comment : Return Media PT805
+  - SUPCTRFG
+    - Value : N
+    - comment : Central return Flag (Y/N)
+  - SUPLEGALREP
+    - Value : null
+    - comment : Legal Rep
+  - SUPFRADD
+    - Value : null
+    - comment : Freight Address
+  - SUPFRCOM
+    - Value : null
+    - comment : Freight Company
+  - SUPRECONP
+    - Value : null
+    - comment : Return contact person
+  - SUPRECONE
+    - Value : null
+    - comment : Return contact E-mail
+  - SUPFROZENSTATUS
+    - Value : 3
+    - comment : Supplier Frozen Status: 0, supplier is un-froze and not falling into Supplier Frozen Logic; 1, supplier is frozen and pending for purging process. 2, supplier is going to do data purge, un-froze of supplier is impossible during this status. 3, supplier related data all got data purged.
+  - SUPFROZENDATE
+    - Value : 2021-02-08 01:07:34.0
+    - comment : Supplier Frozen Date

@@ -91,7 +91,7 @@
     - PK
 
 
-# HYP 的 Story 代碼, WSTORYTYPO 是舊系統，請改用新系統
+# HYP 的 Story 列表, WSTORYTYPO 是舊系統，請改用新系統
 
 - 部門： 10
 - BusinessFormat : HYP
@@ -129,7 +129,7 @@
 
 
 
-# SUP 的 Story 代碼, WSTORYTYPO 是舊系統，請改用新系統
+# SUP 的 Story 列表, WSTORYTYPO 是舊系統，請改用新系統
 
 - 部門： 10
 - BusinessFormat : SUP
@@ -167,7 +167,7 @@
 
 
 
-# JSN 的 Story 代碼, WSTORYTYPO 是舊系統，請改用新系統
+# JSN 的 Story 列表, WSTORYTYPO 是舊系統，請改用新系統
 
 - 部門： 10
 - BusinessFormat : JSN

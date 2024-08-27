@@ -86,7 +86,7 @@
   - MSDDVCD
     - Value : 1
     - FK (MSTDIV.MSVDVCD), [MSTDIV](P4P_MSTDIV_00.md)
-    - 說明 : divisionCode
+    - 說明 : divisionCode, [MSTDIV](P4P_MSTDIV_00.md)
     - comment : Division code
   - MSDSTAT
     - Value : 1
@@ -165,3 +165,39 @@
     - Value : null
     - [TBLDTL = 748 : Classify food or non food](P4P_TBLDTL_02_748.md)
     - comment : Classify food or non food department *Table 748
+
+
+ # 申請單的部門
+
+ - 使用者 隸屬部門為 10, 11, 12, 14, 15, 20, 21, 22, 23, 24, 25
+ - 與 『TBLDTL 711 AWF申請單建立與資料修改控制依部門』
+
+ ```sql
+    
+ SELECT
+     A.* , B.TBDNUM1,B.TBDNUM2
+
+ FROM MSTDEP A
+       INNER JOIN TBLDTL B ON B.TBDTBNO =711 AND A.MSDDPCD=TBDENTCD
+ WHERE A.MSDDPCD in (10, 11, 12, 14, 15, 20, 21, 22, 23, 24, 25)
+    AND A.MSDSTAT =1
+    AND ( B.TBDNUM1 IS NULL OR B.TBDNUM1 !=1 )  -- [ TBDNUM1=1 is not allow ]
+    ORDER BY MSDDPCD
+
+
+ ```
+
+|SEQ|MSDDPCD|MSDEDESC|MSDLDESC|MSDDVCD|MSDSTAT|MSDCRE|MSDUPD|MSDUSR|MSDCREUSR|MSDAUTODEL|MSDISHIDACD|MSDREQWEIGHT|MSDUSECPM|MSDINCRNYC|MSDGENORD|MSDFULLPACK|MSDUSETYP|MSDSHELFLIMIT|MSDSHELFLIMITUOM|MSDUSETYPALLO|MSDCTRFG|MSDMTAX|MSDFNF|TBDNUM1|TBDNUM2|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|01 / 11|10|Beverages|菸酒飲料|1|1|2009-05-08 19:00:00.0|2021-09-15 13:12:18.0|victorshih|MIGRATION|Y|1|N|1|1|N|Y|1|null|null|0|N|N|null|0|1|
+|02 / 11|11|Cleaning|家用清潔用品|1|1|2009-05-08 19:00:00.0|2021-09-24 13:38:44.0|victorshih|MIGRATION|Y|1|N|1|1|N|Y|1|null|null|0|N|N|null|0|1|
+|03 / 11|12|Cosmetics|生活藥粧|1|1|2009-05-08 19:00:00.0|2021-09-24 13:38:44.0|victorshih|MIGRATION|Y|1|N|1|0|N|Y|1|null|null|0|N|N|null|0|1|
+|04 / 11|14|Dry Grocery|乾性食品|1|1|2009-05-08 19:00:00.0|2021-11-11 15:38:53.0|victorshih|MIGRATION|Y|1|N|1|1|N|Y|1|null|null|0|N|N|null|0|1|
+|05 / 11|15|Self-Service Perishables|日配食品|1|1|2009-05-08 19:00:00.0|2021-09-24 13:38:44.0|victorshih|MIGRATION|Y|1|N|1|1|N|Y|1|null|null|0|N|N|null|0|1|
+|06 / 11|20|Ready To Eat|熟食課|2|1|2009-05-08 19:00:00.0|2015-05-05 09:27:08.0|F000033546|MIGRATION|Y|1|Y|1|0|N|Y|1|null|null|0|N|null|null|0|null|
+|07 / 11|21|Fish|鮮魚課|2|1|2009-05-08 19:00:00.0|2015-05-05 09:27:08.0|F000033546|MIGRATION|Y|1|Y|1|0|N|Y|1|null|null|0|N|null|null|0|null|
+|08 / 11|22|Fruit & Vegetables|蔬果課|2|1|2009-05-08 19:00:00.0|2015-05-05 09:27:08.0|F000033546|MIGRATION|Y|1|Y|1|0|N|Y|1|null|null|0|N|null|null|0|null|
+|09 / 11|23|Bakery|麵包課|2|1|2009-05-08 19:00:00.0|2015-05-05 09:27:08.0|F000033546|MIGRATION|Y|1|Y|1|0|N|Y|1|null|null|0|N|null|null|0|null|
+|10 / 11|24|Butchery|精肉課|2|1|2009-05-08 19:00:00.0|2015-05-05 09:27:08.0|F000033546|MIGRATION|Y|1|Y|1|0|N|Y|1|null|null|0|N|null|null|0|null|
+|11 / 11|25|Dry Product|乾貨|2|1|2009-05-08 19:00:00.0|2015-05-05 09:27:08.0|F000033546|MIGRATION|Y|1|Y|1|0|N|Y|0|null|null|0|N|null|null|0|null|
+

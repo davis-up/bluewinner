@@ -111,3 +111,23 @@
     - Value : 0
     - 說明 : vatIncluded
     - comment : VAT Included in Selling Price (1-Yes/0-No)
+
+
+ # 查詢有效稅別資料
+
+
+ ```sql
+    
+ SELECT A.* , B.* FROM TAXGLD A
+         INNER JOIN TBLDTL B ON B.TBDTBNO = '30' AND B.TBDCHA1 = 'P' AND B.TBDENTCD = A.TAXTAXTYP
+ WHERE SYSDATE BETWEEN A.TAXSDATE AND A.TAXEDATE
+ ORDER BY A.TAXTAXCD
+
+
+ ```
+
+|SEQ|TAXTAXCD|TAXTAXTYP|TAXSDATE|TAXDESC|TAXRATE|TAXREFUND|TAXEDATE|TAXLOC|TAXCRE|TAXUPD|TAXUSR|TAXCREUSR|TAXSUPINV|TAXNATURECD|TAXCDAMT|TAXNUM1|TAXNUM2|TAXALPH1|TAXALPH2|TAXCDCUS|TAXPOS|TAXVATSP|TBDTBNO|TBDENTCD|TBDEDESC|TBDLDESC|TBDACCES|TBDNUM1|TBDNUM2|TBDNUM3|TBDNUM4|TBDCHA1|TBDCHA2|TBDCHA3|TBDCHA4|TBDDAT1|TBDDAT2|TBDCRE|TBDUPD|TBDUSR|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|01 / 02|0|1|2010-08-03 00:00:00.0|VAT 0%|0|1|2049-12-31 00:00:00.0|null|2010-08-02 18:57:26.0|2010-08-02 19:03:39.0|sharonlee|victorshih|Y|null|SGSC1|null|null|null|null|SGSC3|12|0|30|1|VAT|VAT|2|2|1|1|null|P|null|null|N|null|null|2009-03-27 00:00:00.0|2016-05-17 17:33:08.0|F000000959|
+|02 / 02|1|1|2010-08-03 00:00:00.0|VAT 5%|5|1|2049-12-31 00:00:00.0|null|2010-08-02 18:57:26.0|2010-08-02 19:03:39.0|sharonlee|victorshih|Y|null|SGSC0|null|null|null|null|SGSC2|11|1|30|1|VAT|VAT|2|2|1|1|null|P|null|null|N|null|null|2009-03-27 00:00:00.0|2016-05-17 17:33:08.0|F000000959|
+

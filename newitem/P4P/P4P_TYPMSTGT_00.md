@@ -94,7 +94,7 @@
     - comment : End of day
 
 
-# HYP 的 Typo 代碼
+# HYP 的 Typology Typo 列表
 
 - 部門： 10
 - 商品分類： 101
@@ -130,7 +130,7 @@
 
 
 
-# SUP 的 Typo 代碼
+# SUP 的 Typology Typo 列表
 
 - 部門： 10
 - 商品分類： 101
@@ -164,7 +164,7 @@
 
 
 
-# JSN 的 Typo 代碼
+# JSN 的 Typology Typo 列表
 
 - 部門： 10
 - 商品分類： 101
