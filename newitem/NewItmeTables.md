@@ -22,6 +22,8 @@
 - Story 店家列表[依據 Story 、 BusinessFormat[Hyper,Super,Mia]、部門、TBLDTL 727 單品修改申請預設店別](./TWF/TWF_STORYOSTORE_00.md)
 - 部門 有效供應商列表[供應商SUPGLD、部門SUPDEP、SUPATT](./P4P/P4P_DEPSUPPLIER_00.md)
 - 部門 預設供應商列表[供應商SUPGLD、部門SUPDEP、TBLDTL 713 後勤單品預設倉別](./P4P/P4P_DEPSUPPLIER_01.md)
+- 部門 條碼列表[TBLDTL 33 、 TBLDTL 711](./P4P/P4P_TBLDTL_03_37.md)
+- 驗證 條碼 在『MD 服務』是否有重複[ITMBAR](./P4P/P4P_DEPITEMBARCODE_00.md)
 - Supplier 供應商
   - [供應商品牌與Sub-品牌 UPBRAND](./P4P/P4P_SUPGLD_03.md#supbrand-supplier---brand)
   - [品牌名 BRNDDTL](./P4P/P4P_SUPGLD_03.md#brnddtl-brand-detail)

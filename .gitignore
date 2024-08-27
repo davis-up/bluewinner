@@ -62,4 +62,5 @@ bin
 build
 
 ##
-p4_table_file.md
+log/
+temp/
