@@ -6,7 +6,6 @@
   - MSDUSETYP : Typology Flag, typoFlag
   - MSDREQWEIGHT : deptWeight
   - MSDDVCD : [TBLDTL].TBDENTCD
-- [[ST] WSReferential-department](https://wf-dev.int.uni-prosperity.com.tw/WSReferential/services/labelValue/department)
 
 
 ```sql
