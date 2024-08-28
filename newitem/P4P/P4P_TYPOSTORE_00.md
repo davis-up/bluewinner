@@ -19,6 +19,8 @@ SELECT ST.* FROM STOGLD ST
         UNION
         select TBDENTCD SC from tbldtl where TBDTBNO = 727 and TBDNUM1 = 1
     ) C ON ST.STOSTOCD = C.SC
+    WHERE 0=0
+      AND ST.STOTYPE <> 'O'
 FETCH FIRST 5 ROWS ONLY
 
 ```
@@ -52,6 +54,8 @@ SELECT ST.* FROM STOGLD ST
         UNION
         select TBDENTCD SC from tbldtl where TBDTBNO = 727 and TBDNUM1 = 1
     ) C ON ST.STOSTOCD = C.SC
+    WHERE 0=0
+      AND ST.STOTYPE <> 'O'
 FETCH FIRST 5 ROWS ONLY
 
 ```
@@ -85,6 +89,8 @@ SELECT ST.* FROM STOGLD ST
         UNION
         select TBDENTCD SC from tbldtl where TBDTBNO = 727 and TBDNUM1 = 1
     ) C ON ST.STOSTOCD = C.SC
+    WHERE 0=0
+      AND ST.STOTYPE <> 'O'
 FETCH FIRST 5 ROWS ONLY
 
 ```
